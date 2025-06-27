@@ -1,5 +1,6 @@
 package com.practice.dtos;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -7,9 +8,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class CreateTaskDto {
+@AllArgsConstructor
+public class ErrorResponseDto {
 
-	String title;
-	String description;
-	String deadline;
+	private String error;
 }

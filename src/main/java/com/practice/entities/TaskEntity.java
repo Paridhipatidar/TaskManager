@@ -12,5 +12,5 @@ public class TaskEntity {
 	private String description;
 	private Date deadline;
 	private String status;
-	private boolean completed;
+	private Boolean completed;
 }
